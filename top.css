@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  background-color: #434343;
+  color: #efefef;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin: 0 auto;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  background-image: url(img/dish-S.png);
+  background-position: center;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  margin: 15px 0;
+}
+
+.head-title {
+  letter-spacing: 0.2em;
+  margin-left: 10px;
+}
+
+ul :first-child {
+  margin-right: auto;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  justify-content: right;
+  margin-right: 50px;
+  line-height: 70px;
+}
+
+.main-visual-container {
+  height: 200px;
+}
+
+.main-visual {
+  height: 630px;
+  text-align: center;
+  background-color: #fbeee3;
+  padding: 200px 0;
+}
+
+.main-logo {
+  background-image: url(img/dish-L.png);
+  background-position: center;
+  background-size: contain;
+  height: 120px;
+  width: 120px;
+  line-height: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  letter-spacing: 0.2em;
+  font-size: 40px;
+  color: #434343;
+}
