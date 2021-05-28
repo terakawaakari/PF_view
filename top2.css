@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff7f3;
+  letter-spacing: 0.2em;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #434343;
+  color: #efefef;
+}
+
+ul {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  background-image: url(img/dish-S.png);
+  background-position: center;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  margin: 15px 0;
+}
+
+.head-title {
+  margin-left: 10px;
+  letter-spacing: 0.2em;
+}
+
+ul :first-child {
+  margin-right: auto;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  justify-content: right;
+  margin-right: 50px;
+  line-height: 70px;
+}
+
+.main-visual-container,
+.about-container,
+.trouble-container,
+.PR-container {
+  height: 45vw;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.main-visual,
+.about,
+.trouble,
+.PR {
+  height: 45vw;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-visual {
+  background-image: url(img/1.png);
+  display: none;
+}
+
+.about {
+  background-image: url(img/2.png);
+}
+
+.trouble {
+  background-image: url(img/3.png);
+}
+
+.PR {
+  background-image: url(img/4.png);
+}

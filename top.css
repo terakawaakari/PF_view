@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #fbeee3;
+  letter-spacing: 0.2em;
+}
+
 header {
   height: 70px;
   background-color: #434343;
@@ -29,8 +34,8 @@ ul {
 }
 
 .head-title {
-  letter-spacing: 0.2em;
   margin-left: 10px;
+  letter-spacing: 0.2em;
 }
 
 ul :first-child {
@@ -50,10 +55,11 @@ li {
 }
 
 .main-visual {
-  height: 630px;
+  height: 320px;
   text-align: center;
   background-color: #fbeee3;
-  padding: 200px 0;
+  padding: 60px 0;
+  letter-spacing: 0.2em;
 }
 
 .main-logo {
@@ -64,10 +70,43 @@ li {
   width: 120px;
   line-height: 700px;
   margin: 0 auto;
+  display: none;
 }
 
 .title {
   letter-spacing: 0.2em;
-  font-size: 40px;
+  font-size: 50px;
   color: #434343;
+  display: none;
+}
+
+.about-container {
+  background-color: #fbeee3;
+  height: 250px;
+  padding: 50px 0 100px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  color: #434343;
+  letter-spacing: 0.2em;
+  border-top: #787878 solid 2px;
+  border-bottom: #787878 solid 2px;
+  border-radius: 2px;
+}
+
+.about {
+  padding-bottom: 30px;
+}
+
+.PR-container {
+  background-color: #fbeee3;
+  height: 250px;
+  padding: 50px 0 100px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  color: #434343;
+  letter-spacing: 0.2em;
+  border-bottom: #787878 solid 2px;
+  border-radius: 2px;
 }
